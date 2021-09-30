@@ -1,0 +1,26 @@
+*{
+	margin: 0 auto;
+}
+h1{
+	color: white;
+	font-size: 30px;
+	background-color: green;
+}
+h2{
+	font-size: 12px;
+}
+article{
+	min-height: 100px;
+}
+li:nth-child(even){
+	color: green;
+}
+li:nth-child(odd){
+	color:	red;
+}
+li{
+		background-color:yellow;
+		display: inline-block;
+		min-width: 150px;
+		border: solid black 1px;
+}
